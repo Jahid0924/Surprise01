@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="spiderman2 spidermanhide"><img class="spiderbox" src="spider-man-no-way-home-marvel-studios.gif" alt=""></div>
+    
+    <span id="#application"><h2 class="heading">Timer Ultra Pro Max</h2>
+    </span>
+    <div class="container">
+      <div class="displaybox">
+        <h1 class="main">00:00:00</h1>
+      </div>
+      
+      
+      <div class="time">
+        <select id="roll1">
+          <option value="Hour">Hour</option>
+        </select>
+
+        <select id="roll2">
+          <option value="Minute">Minute</option>
+        </select>
+
+        <select id="roll3">
+          <option value="Second">Second</option>
+        </select>
+      </div>
+      <div class="describe">
+        <label class="hide lb1">Hour</label>
+        <label class="hide lb2">Minute</label>
+        <label class="hide lb3">Second</label>
+      </div>
+      <div class="buttons">
+        <button class="set" onclick="setAlrm()">Set Timer</button>
+        <button class="clear btnhide" onclick="clearAlarm()">
+          Clear Timer
+        </button>
+      </div>
+    </div>
+    <p>Created by Jahidul</p>
+   
+    <script src="clock.js"></script>
+  </body>
+</html>
