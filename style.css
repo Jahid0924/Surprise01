@@ -97,10 +97,11 @@ select {
   border: none;
   border-radius: 10px;
   box-shadow: 2px 2px 3px;
-  background-color: rgba(84, 202, 131, 0.664);
+  background-color: rgb(46 179 177 / 98%);
   height: 30px;
-  box-shadow: 10px 10px 10px -1px rgba(18, 1, 20, 0.451),
-    -10px -10px 10px -1px rgba(32, 24, 35, 0);
+  /* box-shadow: 10px 10px 10px -1px rgba(18, 1, 20, 0.451),
+    -10px -10px 10px -1px rgba(32, 24, 35, 0); */
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5, 0.50);
 }
 .set {
   height: 35px;
@@ -111,9 +112,10 @@ select {
   font-size: 1.1rem;
   color: rgb(41, 6, 57);
   margin-bottom: 20px;
-
-  box-shadow: inset 10px 10px 10px -1px rgba(18, 1, 20, 0.616),
-    inset -10px -10px 10px -1px rgba(32, 24, 35, 0.531);
+  transition: 1.5s;
+  /* box-shadow: inset 10px 10px 10px -1px rgba(18, 1, 20, 0.616),
+    inset -10px -10px 10px -1px rgba(32, 24, 35, 0.531); */
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5, 0.68);
 }
 .buttons {
   width: 40%;
@@ -133,6 +135,7 @@ select {
 }
 .btnhide {
   display: none;
+  opacity: 0;
 }
 
 .clear {
@@ -144,8 +147,7 @@ select {
   font-size: 1.1rem;
   margin-bottom: 20px;
   color: rgb(41, 6, 57);
-  box-shadow: inset 10px 10px 10px -1px rgba(18, 1, 20, 0.616),
-    inset -10px -10px 10px -1px rgba(43, 54, 24, 0.531);
+  box-shadow: inset 2px 5px 10px rgb(5, 5, 5, 0.68);
 }
 .describe {
   width: 90%;
@@ -221,6 +223,7 @@ p{
   bottom: 0;
   right: 0;
   font-size: 0.40rem;
+  margin-right: 20px;
 }
 p:hover{
   text-shadow: 0px 0px 7px aqua;

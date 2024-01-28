@@ -97,11 +97,10 @@ function setAlrm() {
     menu[2].value == "Second"
   ) {
     clearInterval(timmer);
-    alert("Bhai Timer Set kar do na.");
+    alert("Bhai thik se Timer Set karo na.");
     btn2.classList.add("btnhide");
     btn.classList.remove("btnhide");
-  } 
- 
+  }
 }
 
 //clear the alarm
